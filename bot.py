@@ -1,7 +1,7 @@
 import os
-from dotenv import load_dotenv
 import discord
 from discord.ext import commands
+from dotenv import load_dotenv
 
 # Importing bot modules
 from modules.config import PREFIX, NAME
