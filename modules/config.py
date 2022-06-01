@@ -1,0 +1,3 @@
+TOKEN = ""
+PREFIX = ""
+NAME = "Ecaflip"
