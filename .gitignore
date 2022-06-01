@@ -4,3 +4,6 @@ include
 lib
 lib64
 pyvenv.cfg
+
+# Exclude config file to avoid leaking the bot TOKEN
+modules/config.py
