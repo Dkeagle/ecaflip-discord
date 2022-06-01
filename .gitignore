@@ -1,9 +1,12 @@
-# Exclude Python venv 
+# Exclude python virtual-env 
 bin
 include
 lib
 lib64
 pyvenv.cfg
 
-# Exclude config file to avoid leaking the bot TOKEN
-modules/config.py
+# Exclude python cache
+__pycache__
+
+# Exclude environment file to avoid leaking the bot TOKEN
+.env
